@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kontakt – Blitzblank Gebäudereinigung</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-title-key="meta_contact">
+
+<a class="skip-link" href="#main" data-i18n="skip_link">Zum Inhalt springen</a>
+
+<header class="site-header">
+  <div class="header-inner container">
+    <a class="brand" href="index.html">
+      <span class="brand-mark" aria-hidden="true"></span>
+      Blitzblank
+    </a>
+
+    <button class="nav-toggle" aria-label="Menü" aria-expanded="false">☰</button>
+
+    <ul class="nav-list">
+      <li><a href="index.html" data-i18n="nav_home">Start</a></li>
+      <li><a href="index.html#ueber-uns" data-i18n="nav_about">Über uns</a></li>
+      <li><a href="leistungen.html" data-i18n="nav_services">Leistungen</a></li>
+      <li><a href="kontakt.html" class="is-active" data-i18n="nav_contact">Kontakt</a></li>
+    </ul>
+
+    <div class="header-right">
+      <div class="lang-switch" role="group" aria-label="Sprache wählen">
+        <button class="lang-btn" data-lang="de">DE</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="bg">BG</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero" style="padding-bottom:70px;">
+    <div class="container hero-inner">
+      <span class="hero-kicker" data-i18n="contact_kicker">Kontakt</span>
+      <h1 data-i18n="contact_title">Schreiben Sie uns</h1>
+      <p data-i18n="contact_sub">Wir melden uns in der Regel innerhalb eines Werktages mit einem passenden Angebot.</p>
+    </div>
+  </section>
+
+  <section class="section on-light">
+    <div class="container contact-grid">
+
+      <form class="contact-form" novalidate>
+        <div class="field">
+          <label for="name" data-i18n="form_name">Name</label>
+          <input type="text" id="name" name="name" required data-i18n-placeholder="form_name_ph" placeholder="Ihr vollständiger Name">
+        </div>
+        <div class="field">
+          <label for="email" data-i18n="form_email">E-Mail</label>
+          <input type="email" id="email" name="email" required data-i18n-placeholder="form_email_ph" placeholder="name@beispiel.de">
+        </div>
+        <div class="field">
+          <label for="message" data-i18n="form_message">Nachricht</label>
+          <textarea id="message" name="message" rows="6" required data-i18n-placeholder="form_message_ph" placeholder="Was möchten Sie gereinigt haben? Größe, Umfang, Wunschtermin …"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" data-i18n="form_submit">Nachricht senden</button>
+      </form>
+
+      <aside class="info-card">
+        <h3 data-i18n="info_title">Direkt erreichbar</h3>
+        <dl>
+          <div class="info-row">
+            <dt data-i18n="info_address_label">Adresse</dt>
+            <dd>Musterstraße 12<br>33602 Bielefeld</dd>
+          </div>
+          <div class="info-row">
+            <dt data-i18n="info_phone_label">Telefon</dt>
+            <dd>+49 (0)521 123456</dd>
+          </div>
+          <div class="info-row">
+            <dt data-i18n="info_email_label">E-Mail</dt>
+            <dd>info@blitzblank-beispiel.de</dd>
+          </div>
+          <div class="info-row">
+            <dt data-i18n="info_hours_label">Erreichbarkeit</dt>
+            <dd data-i18n="info_hours_value">Mo–Fr, 8:00–17:00 Uhr</dd>
+          </div>
+        </dl>
+      </aside>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-top">
+    <div class="footer-brand">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Blitzblank
+      </a>
+      <p data-i18n="footer_tagline">Gebäudereinigung mit Charakter – gründlich, verlässlich, aus Bielefeld.</p>
+    </div>
+
+    <nav class="footer-nav">
+      <h4 data-i18n="footer_nav_title">Navigation</h4>
+      <ul>
+        <li><a href="index.html" data-i18n="nav_home">Start</a></li>
+        <li><a href="index.html#ueber-uns" data-i18n="nav_about">Über uns</a></li>
+        <li><a href="leistungen.html" data-i18n="nav_services">Leistungen</a></li>
+        <li><a href="kontakt.html" data-i18n="nav_contact">Kontakt</a></li>
+      </ul>
+    </nav>
+
+    <div class="footer-impressum">
+      <h4 data-i18n="footer_impressum_title">Impressum</h4>
+      <p><strong data-i18n="footer_impressum_company">Blitzblank Gebäudereinigung GmbH</strong></p>
+      <p><span data-i18n="footer_impressum_address_label">Anschrift:</span> Musterstraße 12, 33602 Bielefeld</p>
+      <p data-i18n="footer_impressum_represented">Vertreten durch: Max Mustermann (Geschäftsführer)</p>
+      <p data-i18n="footer_impressum_contact">Kontakt: Telefon +49 (0)521 123456 · info@blitzblank-beispiel.de</p>
+      <p data-i18n="footer_impressum_register">Handelsregister: HRB 12345, Amtsgericht Bielefeld</p>
+      <p data-i18n="footer_impressum_vat">USt-IdNr.: DE123456789</p>
+      <p data-i18n="footer_impressum_responsible">Verantwortlich für den Inhalt (§ 55 Abs. 2 RStV): Max Mustermann, Anschrift wie oben.</p>
+      <p class="impressum-note" data-i18n="footer_impressum_note">Musterimpressum zu Demonstrationszwecken – keine reale Firma.</p>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    <span data-i18n="footer_copyright">© 2026 Blitzblank Gebäudereinigung GmbH. Alle Rechte vorbehalten.</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
